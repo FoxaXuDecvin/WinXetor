@@ -1,0 +1,88 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>WinXetor Help Page</title>
+    <meta name='description' content='FoxaXu FoxaXuDeveloper FoxaXuSign Welcome to my website'>
+    <meta http-equiv='content-language' content='zh-cn'>
+    <link rel="shortcut icon" href="https://gitcode.net/FoxaXu1/pageloader/-/raw/master/PNG/WEBLOGO.png">
+</head>
+    <div class="main-container" id="main" style="width:99%">
+        <iframe src="https://api.foxaxu.com/res/htmlcore/classtop.html" width="100%" height="130" frameborder="0">
+            Load failed
+        </iframe>
+    </div>
+<body><h1>WXScript</h1></body>
+    <hr/>
+    <p><b>什么是WXScript?</b></p>
+    <p>WXScript是集成在WinXetor工具里面的一种脚本语言</p>
+    <p>主要用于方便脚本调用WinXetor的API与丰富功能模块</p>
+    <p>如果你想单独编写一个脚本可以参考此处</p>
+    <p><a href="https://developer.foxaxu.com/WinXetor/wxscript.exe">下载独立版本</a></p>
+    <hr>
+    <p><b>指令格式</b></p>
+    <p>_off.echo.console // 指定文件运行参数</p>
+    <br>
+    <p>_api.cout // 调用API</p>
+    <p>Hello World // 指定内容</p>
+    <p>_return.backmain // 退出调用的API</p>
+    <br>
+    <p> _wxscript.close // 退出脚本</p>
+    <p> 注意 // 只是用于解释指令，如果你想在脚本中使用注释请使用 _skip</p>
+    <hr>
+    <p><b>基本指令操作</b></p>
+    <p>基于 Version 1.02 / 版本代号 : 2 编写</p>
+    <br>
+    <p>_off.echo.console // 如果你不想看到调试信息可以脚本头处添加此指令</p>
+    <p>_set.min.version // 规定执行脚本要求的WXScript核心最低版本</p>
+    <p>_use.admin.run // 如果想让此脚本以管理员权限运行请添加此指令</p>
+    <p>_wxscript.close // 结束返回程序指令</p>
+    <p>_skip // 跳过执行下一段指令用于添加注释</p>
+    <br>
+    <p><b>用户交互</b></p>
+    <p>_wxscript.pause // 暂停脚本执行</p>
+    <p>_wxscript.clear // 清理控制台</p>
+    <p>_print.TXT // 输出TXT文件</p>
+    <br>
+    <p><b>API</b></p>
+    <p>注意：返回时需要使用 _return.backmain 指令，否则视为继续执行</p>
+    <p>脚本空行不能超过 8 行，否则会自动退出执行</p>
+    <hr>
+    <p>_api.cout // 输出文本</p>
+    <hr>
+    <p>_api.goto (开发中) // 跳转执行</p>
+    <p> 使用方法:</p>
+    <p>_api.goto</p>
+    <p>SkipAddress</p>
+    <br>
+    <b>_skip</b>
+    <p>SkipAddress </p>
+    <p>_api_cout</p>
+    <p>Hello World</p>
+    <p>_return.backmain</p>
+    <hr>
+    <p>_api.win.md / _api.win.rd 创建与移除文件夹</p>
+    <hr>
+    <p>_api.win.runas.local / _api.win.runas.admin 使用 当前用户/管理员 模式运行</p>
+    <hr>
+    <p>_api.win.system // Windows CMD 指令</p>
+    <hr>
+    <p> _api.win.URLDown (兼容性警告) // Windows API URLDownloadFile. 部分环境下这个API可能会失效</p>
+    <p>使用方法</p>
+    <p>_api.win.URLDown</p>
+    <p> https://api.foxaxu.com/connect.test // URL</p>
+    <p> D:\connect.test // SavePath</p>
+    <p> https://api.foxaxu.com/index.html</p>
+    <p> D:\index.html</p>
+    <p> _return.backmain</p>
+    <p></p>
+    <hr>
+    <p>如果你有需求请走反馈通道</p>
+    <p>邮箱私信都可以</p>
+    <hr>
+    <p> TFV 2.2</p>
+    <div class="main-container" id="maindeep" style="width:99%">
+        <iframe src="https://api.foxaxu.com/res/htmlcore/deepborad.html" width="100%" height="180" frameborder="0">
+            Load failed
+        </iframe>
+    </div>
+</html>
